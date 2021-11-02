@@ -8,6 +8,29 @@
   <title>Document</title>
 </head>
 <body>
-  
+  <div class="container">
+    <form id="receipt-form">
+      <label for="name1">Please enter your first and last name:</label><br>
+      <input type="text" id="name1"><br>
+      <label for="address1">Please enter your address:</label><br>
+      <input type ="text" id="address1"><br>
+      <label for="city1">Please enter your city:</label><br>
+      <input type ="text" id="city1"><br>
+      <label for="state1">Please enter your state:</label><br>
+      <input type ="text" id="state1"><br>
+      <label for="zipcode1">Please enter your zipcode:</label><br>
+      <input type ="text" id="zipcode1"><br><br>
+      <button type="submit" class="lg-btn">Submit</button>
+    </form>
+    
+    <div class="receipt">
+      <h3>Purchase Receipt</h3>
+      <p>Name: <span id="receipt-name"></span></p>
+      <p>Address: <span id="receipt-address"></span></p>
+      <p>City: <span id="receipt-city"></span></p>
+      <p>State: <span id="receipt-state"></span></p>
+      <p>Zip: <span id="receipt-zipcode"></span></p>
+    </div>
+  </div>
 </body>
 </html>
